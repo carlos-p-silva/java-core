@@ -1,0 +1,14 @@
+Quem pode utilizar?
+CLASSES:
+private // Apenas se for classe INTERNA
+protected - Apenas se for classe INTERNA
+public - Em todas as classes
+default (não possui palavra chave) - Em todas as classes
+
+Uma classe public é possível acessar de qualquer pacote, porém, é necessário realizar o import
+Uma classe só pode ser definida como private ou protected apenas se for uma classe INTERNA.
+Uma classe default (são as que não possuem palavra-chave) é possível definir em qualque classe,
+porém, a mesma só pode ser acessada por classes do MESMO PACOTE.
+
+
+
